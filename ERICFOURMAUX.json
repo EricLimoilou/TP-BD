@@ -1,0 +1,671 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"ERICFOURMAUX"},
+{"type":"table","name":"ACTEUR_FILM","database":"ERICFOURMAUX","data":
+[
+{   "codeFilm":"1",
+    "codePersonne":"1",
+    "nomPersonnage":"Simba adulte",
+    "dateDebut":"2018-03-01",
+    "dateFin":"2018-08-15",
+    "cachet":"8000000.00"
+},
+{   "codeFilm":"2",
+    "codePersonne":"2",
+    "nomPersonnage":"Dr. Ellie Sattler",
+    "dateDebut":"1992-05-10",
+    "dateFin":"1992-12-20",
+    "cachet":"5000000.00"
+},
+{   "codeFilm":"3",
+    "codePersonne":"1",
+    "nomPersonnage":"Dom Cobb",
+    "dateDebut":"2009-04-15",
+    "dateFin":"2010-01-25",
+    "cachet":"12000000.00"
+},
+{   "codeFilm":"4",
+    "codePersonne":"1",
+    "nomPersonnage":"Jack Dawson",
+    "dateDebut":"1996-07-01",
+    "dateFin":"1997-03-31",
+    "cachet":"2500000.00"
+},
+{   "codeFilm":"5",
+    "codePersonne":"5",
+    "nomPersonnage":"Ki-jung",
+    "dateDebut":"2018-09-05",
+    "dateFin":"2019-02-28",
+    "cachet":"1500000.00"
+},
+{   "codeFilm":"6",
+    "codePersonne":"2",
+    "nomPersonnage":"Black Widow",
+    "dateDebut":"2018-02-01",
+    "dateFin":"2019-05-31",
+    "cachet":"15000000.00"
+}
+]
+}
+,{"type":"table","name":"CARTE_CREDIT","database":"ERICFOURMAUX","data":
+[
+{   "codeCarte":"1",
+    "codeClient":"1",
+    "numeroCarte":"1234567890123456",
+    "dateExpiration":"2024-05-31",
+    "nomTitulaire":"Jean Dupont",
+    "codeSecurite":"123",
+    "estParDefaut":"1"
+},
+{   "codeCarte":"2",
+    "codeClient":"2",
+    "numeroCarte":"2345678901234567",
+    "dateExpiration":"2024-08-31",
+    "nomTitulaire":"Sophie Martin",
+    "codeSecurite":"234",
+    "estParDefaut":"1"
+},
+{   "codeCarte":"3",
+    "codeClient":"3",
+    "numeroCarte":"3456789012345678",
+    "dateExpiration":"2024-03-31",
+    "nomTitulaire":"Philippe Leclerc",
+    "codeSecurite":"345",
+    "estParDefaut":"1"
+},
+{   "codeCarte":"4",
+    "codeClient":"4",
+    "numeroCarte":"4567890123456789",
+    "dateExpiration":"2025-01-31",
+    "nomTitulaire":"Marie Petit",
+    "codeSecurite":"456",
+    "estParDefaut":"1"
+},
+{   "codeCarte":"5",
+    "codeClient":"5",
+    "numeroCarte":"5678901234567890",
+    "dateExpiration":"2025-04-30",
+    "nomTitulaire":"Paul Dubois",
+    "codeSecurite":"567",
+    "estParDefaut":"1"
+},
+{   "codeCarte":"6",
+    "codeClient":"1",
+    "numeroCarte":"6789012345678901",
+    "dateExpiration":"2026-06-30",
+    "nomTitulaire":"Jean Dupont",
+    "codeSecurite":"678",
+    "estParDefaut":"0"}
+]
+}
+,{"type":"table","name":"CATEGORIE","database":"ERICFOURMAUX","data":
+[
+{   "codeCategorie":"1",
+    "nomCategorie":"Action",
+    "description":"Films avec des scènes d'action, des cascades, des combats."
+},
+{   "codeCategorie":"2",
+    "nomCategorie":"Aventure",
+    "description":"Films centrés sur un voyage ou une quête."
+},
+{   "codeCategorie":"3",
+    "nomCategorie":"Comédie",
+    "description":"Films humoristiques."
+},
+{   "codeCategorie":"4",
+    "nomCategorie":"Drame",
+    "description":"Films sérieux ou réalistes abordant des sujets émotionnels."
+},
+{   "codeCategorie":"5",
+    "nomCategorie":"Science-Fiction",
+    "description":"Films incorporant des éléments scientifiques et technologiques futuristes."
+},
+{   "codeCategorie":"6",
+    "nomCategorie":"Horreur",
+    "description":"Films destinés à effrayer le spectateur."
+},
+{   "codeCategorie":"7",
+    "nomCategorie":"Romance",
+    "description":"Films centrés sur des relations amoureuses."
+}
+]
+}
+,{"type":"table","name":"CLIENT","database":"ERICFOURMAUX","data":
+[
+{   "codeClient":"1",
+    "passwordClient":"password123",
+    "nomClient":"Dupont",
+    "prenomClient":"Jean",
+    "adresse":"123 rue de Paris",
+    "ville":"Paris",
+    "codePostal":"75001",
+    "pays":"France",
+    "telephone":"0123456789",
+    "courriel":"jean.dupont@email.com","dateInscription":"2023-01-15"
+},
+{   "codeClient":"2",
+    "passwordClient":"securePass",
+    "nomClient":"Martin",
+    "prenomClient":"Sophie",
+    "adresse":"456 Avenue des Lilas",
+    "ville":"Lyon",
+    "codePostal":"69002",
+    "pays":"France",
+    "telephone":"0234567890",
+    "courriel":"sophie.martin@email.com",
+    "dateInscription":"2023-02-20"
+},
+{   "codeClient":"3",
+    "passwordClient":"myP@ssw0rd",
+    "nomClient":"Leclerc",
+    "prenomClient":"Philippe",
+    "adresse":"789 Boulevard Victor Hugo",
+    "ville":"Marseille",
+    "codePostal":"13008",
+    "pays":"France",
+    "telephone":"0345678901",
+    "courriel":"philippe.leclerc@email.com",
+    "dateInscription":"2023-03-10"
+},
+{   "codeClient":"4",
+    "passwordClient":"p@ssword1",
+    "nomClient":"Petit",
+    "prenomClient":"Marie",
+    "adresse":"101 Rue des Fleurs",
+    "ville":"Toulouse",
+    "codePostal":"31000",
+    "pays":"France",
+    "telephone":"0456789012",
+    "courriel":"marie.petit@email.com",
+    "dateInscription":"2023-04-05"
+},
+{   "codeClient":"5",
+    "passwordClient":"strongPwd2",
+    "nomClient":"Dubois",
+    "prenomClient":"Paul",
+    "adresse":"202 Avenue de la République",
+    "ville":"Bordeaux",
+    "codePostal":"33000",
+    "pays":"France",
+    "telephone":"0567890123",
+    "courriel":"paul.dubois@email.com",
+    "dateInscription":"2023-05-12"
+},
+{   "codeClient":"6",
+    "passwordClient":"userPass3",
+    "nomClient":"Moreau",
+    "prenomClient":"Claire",
+    "adresse":"303 Rue de la Liberté",
+    "ville":"Lille",
+    "codePostal":"59000",
+    "pays":"France",
+    "telephone":"0678901234",
+    "courriel":"claire.moreau@email.com",
+    "dateInscription":"2023-06-18"
+}
+]
+}
+,{"type":"table","name":"COMMANDE","database":"ERICFOURMAUX","data":
+[
+{   "codeCommande":"0",
+    "codeClient":"1",
+    "codeFilm":"2",
+    "dateCommande":"2023-06-30 21:15:45",
+    "adresseIP":"192.168.1.101",
+    "tempsVisionnement":"2700"
+},
+{   "codeCommande":"1",
+    "codeClient":"1",
+    "codeFilm":"1",
+    "dateCommande":"2023-06-01 20:15:30",
+    "adresseIP":"192.168.1.100",
+    "tempsVisionnement":"3600"
+},
+{   "codeCommande":"2",
+    "codeClient":"1",
+    "codeFilm":"3",
+    "dateCommande":"2023-06-05 21:30:45",
+    "adresseIP":"192.168.1.100",
+    "tempsVisionnement":"7200"
+},
+{   "codeCommande":"3",
+    "codeClient":"2",
+    "codeFilm":"2",
+    "dateCommande":"2023-06-10 19:45:20",
+    "adresseIP":"192.168.2.200",
+    "tempsVisionnement":"5400"
+},
+{   "codeCommande":"4",
+    "codeClient":"3",
+    "codeFilm":"4",
+    "dateCommande":"2023-06-15 22:10:15",
+    "adresseIP":"192.168.3.150",
+    "tempsVisionnement":"9000"
+},
+{   "codeCommande":"5",
+    "codeClient":"4",
+    "codeFilm":"5",
+    "dateCommande":"2023-06-20 18:30:00",
+    "adresseIP":"192.168.4.175",
+    "tempsVisionnement":"4800"
+},
+{   "codeCommande":"6",
+    "codeClient":"5",
+    "codeFilm":"6",
+    "dateCommande":"2023-06-25 20:00:30",
+    "adresseIP":"192.168.5.225",
+    "tempsVisionnement":"6300"
+}
+]
+}
+,{"type":"table","name":"COMPAGNIE","database":"ERICFOURMAUX","data":
+[
+{   "codeCompagnie":"1",
+    "nomCompagnie":"Disney",
+    "description":"The Walt Disney Company est une entreprise américaine créée en 1923."
+},
+{   "codeCompagnie":"2",
+    "nomCompagnie":"Universal Pictures",
+    "description":"Universal Pictures est un studio de cinéma américain qui fait partie du groupe Universal Studios."
+},
+{   "codeCompagnie":"3",
+    "nomCompagnie":"Warner Bros",
+    "description":"Warner Bros. Entertainment est l'une des plus grandes sociétés de production de films et de télévision au monde."
+},
+{   "codeCompagnie":"4",
+    "nomCompagnie":"Paramount Pictures",
+    "description":"Paramount Pictures Corporation est un studio de cinéma et de télévision américain."
+},
+{   "codeCompagnie":"5",
+    "nomCompagnie":"Sony Pictures",
+    "description":"Sony Pictures Entertainment est une société américaine de production et de distribution de films."
+}
+]
+}
+,{"type":"table","name":"FILM","database":"ERICFOURMAUX","data":
+[
+{   "codeFilm":"1",
+    "codeCompagnie":"1",
+    "titre":"Le Roi Lion",
+    "duree":"118",
+    "description":"Un jeune lion prince est évincé de son royaume par son oncle cruel, qui prétend vouloir mettre fin au règne de la terreur de son père.",
+    "noteGlobale":"92.50",
+    "dateAjout":"2023-01-01",
+    "langueOriginale":"2"
+},
+{   "codeFilm":"2",
+    "codeCompagnie":"2",
+    "titre":"Jurassic Park",
+    "duree":"127",
+    "description":"Un milliardaire et son équipe de scientifiques génétiques créent un parc d'attractions peuplé de dinosaures recréés à partir d'ADN préhistorique.",
+    "noteGlobale":"91.00",
+    "dateAjout":"2023-01-15",
+    "langueOriginale":"2"
+},
+{   "codeFilm":"3",
+    "codeCompagnie":"3",
+    "titre":"Inception",
+    "duree":"148",
+    "description":"Un voleur qui commet des crimes d'entreprise en utilisant une technologie qui lui permet de pénétrer le subconscient de ses cibles se voit proposer une chance de retrouver son ancienne vie.",
+    "noteGlobale":"95.50",
+    "dateAjout":"2023-02-01",
+    "langueOriginale":"2"
+},
+{   "codeFilm":"4",
+    "codeCompagnie":"4",
+    "titre":"Titanic",
+    "duree":"194",
+    "description":"Une aristocrate de dix-sept ans tombe amoureuse d'un artiste à bord du luxueux et infortuné R.M.S. Titanic.",
+    "noteGlobale":"87.80",
+    "dateAjout":"2023-02-15",
+    "langueOriginale":"2"
+},
+{   "codeFilm":"5",
+    "codeCompagnie":"5",
+    "titre":"Parasite",
+    "duree":"132",
+    "description":"Greed and class discrimination threaten the relationship between the wealthy Park family and the destitute Kim clan.",
+    "noteGlobale":"96.20",
+    "dateAjout":"2023-03-01",
+    "langueOriginale":"5"
+},
+{   "codeFilm":"6",
+    "codeCompagnie":"1",
+    "titre":"Avengers: Endgame",
+    "duree":"181",
+    "description":"Après les événements dévastateurs d'Infinity War, l'univers est en ruines. Avec l'aide des alliés restants, les Avengers se rassemblent une fois de plus.",
+    "noteGlobale":"94.30",
+    "dateAjout":"2023-03-15",
+    "langueOriginale":"2"
+}
+]
+}
+,{"type":"table","name":"FILMS_SIMILAIRES","database":"ERICFOURMAUX","data":
+[
+{   "codeFilm":"5",
+    "codeFilmSimilaire":"1"
+},
+{   "codeFilm":"1",
+    "codeFilmSimilaire":"2"
+},
+{   "codeFilm":"2",
+    "codeFilmSimilaire":"3"
+},
+{   "codeFilm":"3",
+    "codeFilmSimilaire":"5"
+},
+{   "codeFilm":"4",
+    "codeFilmSimilaire":"6"
+}
+]
+}
+,{"type":"table","name":"FILM_CATEGORIE","database":"ERICFOURMAUX","data":
+[
+{   "codeFilm":"2",
+    "codeCategorie":"1"
+},
+{   "codeFilm":"3",
+    "codeCategorie":"1"
+},
+{   "codeFilm":"6",
+    "codeCategorie":"1"
+},
+{   "codeFilm":"1",
+    "codeCategorie":"2"
+},
+{   "codeFilm":"2",
+    "codeCategorie":"2"
+},
+{   "codeFilm":"3",
+    "codeCategorie":"2"
+},
+{   "codeFilm":"6",
+    "codeCategorie":"2"
+},
+{   "codeFilm":"1",
+    "codeCategorie":"3"
+},
+{   "codeFilm":"5",
+    "codeCategorie":"3"
+},
+{   "codeFilm":"4",
+    "codeCategorie":"4"
+},
+{   "codeFilm":"5",
+    "codeCategorie":"4"
+},
+{   "codeFilm":"2",
+    "codeCategorie":"5"
+},
+{   "codeFilm":"3",
+    "codeCategorie":"5"
+},
+{   "codeFilm":"6",
+    "codeCategorie":"5"
+},
+{   "codeFilm":"4",
+    "codeCategorie":"7"
+}
+]
+}
+,{"type":"table","name":"FILM_LANGUE","database":"ERICFOURMAUX","data":
+[
+{   "codeFilm":"1",
+    "codeLangue":"1"
+},
+{   "codeFilm":"2",
+    "codeLangue":"1"
+},
+{   "codeFilm":"3",
+    "codeLangue":"1"
+},
+{   "codeFilm":"4",
+    "codeLangue":"1"
+},
+{   "codeFilm":"5",
+    "codeLangue":"1"
+},
+{   "codeFilm":"6",
+    "codeLangue":"1"
+},
+{   "codeFilm":"1",
+    "codeLangue":"2"
+},
+{   "codeFilm":"2",
+    "codeLangue":"2"
+},
+{   "codeFilm":"3",
+    "codeLangue":"2"
+},
+{   "codeFilm":"4",
+    "codeLangue":"2"
+},
+{   "codeFilm":"5",
+    "codeLangue":"2"
+},
+{   "codeFilm":"6",
+    "codeLangue":"2"
+},
+{   "codeFilm":"1",
+    "codeLangue":"3"
+},
+{   "codeFilm":"6",
+    "codeLangue":"3"
+},
+{   "codeFilm":"2",
+    "codeLangue":"4"
+},
+{   "codeFilm":"6",
+    "codeLangue":"4"
+},
+{   "codeFilm":"5",
+    "codeLangue":"5"
+},
+{   "codeFilm":"3",
+    "codeLangue":"6"
+},
+{   "codeFilm":"4",
+    "codeLangue":"7"
+}
+]
+}
+,{"type":"table","name":"LANGUE","database":"ERICFOURMAUX","data":
+[
+{   "codeLangue":"1",
+    "nomLangue":"Français"
+},
+{   "codeLangue":"2",
+    "nomLangue":"Anglais"
+},
+{   "codeLangue":"3",
+    "nomLangue":"Espagnol"
+},
+{   "codeLangue":"4",
+    "nomLangue":"Mandarin"
+},
+{   "codeLangue":"5",
+    "nomLangue":"Japonais"
+},
+{   "codeLangue":"6",
+    "nomLangue":"Allemand"
+},
+{   "codeLangue":"7",
+    "nomLangue":"Italien"
+}
+]
+}
+,{"type":"table","name":"NOTE","database":"ERICFOURMAUX","data":
+[
+{   "codeNote":"1",
+    "codeClient":"1",
+    "codeFilm":"1",
+    "note":"95",
+    "commentaire":"Excellent film pour toute la famille.",
+    "dateNote":"2023-06-02 10:30:00"
+},
+{   "codeNote":"2",
+    "codeClient":"1",
+    "codeFilm":"3",
+    "note":"98",
+    "commentaire":"Un chef-d'œuvre de science-fiction.",
+    "dateNote":"2023-06-06 14:45:30"
+},
+{   "codeNote":"3",
+    "codeClient":"2",
+    "codeFilm":"2",
+    "note":"90",
+    "commentaire":"Effets spéciaux incroyables pour l'époque.",
+    "dateNote":"2023-06-11 09:15:20"
+},
+{   "codeNote":"4",
+    "codeClient":"3",
+    "codeFilm":"4",
+    "note":"85",
+    "commentaire":"Une belle histoire d'amour, mais un peu long."
+    ,"dateNote":"2023-06-16 16:20:10"
+},
+{   "codeNote":"5",
+    "codeClient":"4",
+    "codeFilm":"5",
+    "note":"97",
+    "commentaire":"Film profond sur les inégalités sociales.",
+    "dateNote":"2023-06-21 11:30:45"
+}
+]
+}
+,{"type":"table","name":"PERSONNE","database":"ERICFOURMAUX","data":
+[
+{   "codePersonne":"1",
+    "nom":"DiCaprio",
+    "prenom":"Leonardo",
+    "dateNaissance":"1974-11-11",
+    "biographie":"Acteur américain connu pour ses rôles dans Titanic et The Revenant."
+},
+{   "codePersonne":"2",
+    "nom":"Johansson",
+    "prenom":"Scarlett",
+    "dateNaissance":"1984-11-22",
+    "biographie":"Actrice américaine connue pour son rôle de Black Widow."
+},
+{   "codePersonne":"3",
+    "nom":"Spielberg",
+    "prenom":"Steven",
+    "dateNaissance":"1946-12-18",
+    "biographie":"Réalisateur américain connu pour E.T. et Jurassic Park."
+},
+{   "codePersonne":"4",
+    "nom":"Nolan",
+    "prenom":"Christopher",
+    "dateNaissance":"1970-07-30",
+    "biographie":"Réalisateur britannique-américain connu pour Inception et Interstellar."
+},
+{   "codePersonne":"5",
+    "nom":"Portman",
+    "prenom":"Natalie",
+    "dateNaissance":"1981-06-09",
+    "biographie":"Actrice israélo-américaine connue pour Black Swan."
+},
+{   "codePersonne":"6",
+    "nom":"Pitt",
+    "prenom":"Brad",
+    "dateNaissance":"1963-12-18",
+    "biographie":"Acteur américain connu pour Fight Club et Once Upon a Time in Hollywood."
+},
+{   "codePersonne":"7",
+    "nom":"Lawrence",
+    "prenom":"Jennifer",
+    "dateNaissance":"1990-08-15",
+    "biographie":"Actrice américaine connue pour Hunger Games."
+},
+{   "codePersonne":"8",
+    "nom":"Tarantino",
+    "prenom":"Quentin",
+    "dateNaissance":"1963-03-27",
+    "biographie":"Réalisateur américain connu pour Pulp Fiction et Kill Bill."
+},
+{   "codePersonne":"9",
+    "nom":"Gosling",
+    "prenom":"Ryan",
+    "dateNaissance":"1980-11-12",
+    "biographie":"Acteur canadien connu pour La La Land et Drive."
+},
+{   "codePersonne":"10",
+    "nom":"Zimmer",
+    "prenom":"Hans",
+    "dateNaissance":"1957-09-12",
+    "biographie":"Compositeur allemand de musiques de films."
+}
+]
+}
+,{"type":"table","name":"STAFF_FILM","database":"ERICFOURMAUX","data":
+[
+{   "codeFilm":"1",
+    "codePersonne":"3",
+    "codeTypeTravail":"1",
+    "dateDebut":"2017-10-01",
+    "dateFin":"2019-01-31",
+    "salaire":"10000000.00"
+},
+{   "codeFilm":"2",
+    "codePersonne":"3",
+    "codeTypeTravail":"1",
+    "dateDebut":"1991-08-15",
+    "dateFin":"1993-05-31",
+    "salaire":"8000000.00"
+},
+{   "codeFilm":"3",
+    "codePersonne":"4",
+    "codeTypeTravail":"1",
+    "dateDebut":"2008-06-01",
+    "dateFin":"2010-03-31",
+    "salaire":"15000000.00"
+},
+{   "codeFilm":"3",
+    "codePersonne":"4",
+    "codeTypeTravail":"3",
+    "dateDebut":"2008-01-15",
+    "dateFin":"2008-05-31",
+    "salaire":"5000000.00"
+},
+{   "codeFilm":"4",
+    "codePersonne":"8",
+    "codeTypeTravail":"3",
+    "dateDebut":"1995-09-01",
+    "dateFin":"1996-06-30",
+    "salaire":"3000000.00"
+},
+{   "codeFilm":"5",
+    "codePersonne":"10",
+    "codeTypeTravail":"5",
+    "dateDebut":"2018-06-01",
+    "dateFin":"2018-12-31",
+    "salaire":"1000000.00"
+}
+]
+}
+,{"type":"table","name":"TYPE_TRAVAIL","database":"ERICFOURMAUX","data":
+[
+{   "codeTypeTravail":"5",
+    "nomTypeTravail":"Compositeur"
+},
+{   "codeTypeTravail":"7",
+    "nomTypeTravail":"Costumier"
+},
+{   "codeTypeTravail":"4",
+    "nomTypeTravail":"Directeur de la photographie"
+},
+{   "codeTypeTravail":"6",
+    "nomTypeTravail":"Monteur"
+},
+{   "codeTypeTravail":"2",
+    "nomTypeTravail":"Producteur"
+},
+{   "codeTypeTravail":"1",
+    "nomTypeTravail":"Réalisateur"
+},
+{   "codeTypeTravail":"3",
+    "nomTypeTravail":"Scénariste"
+}
+]
+}
+]
